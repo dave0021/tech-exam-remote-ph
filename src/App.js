@@ -91,7 +91,7 @@ function App() {
       <div className="main-container" align="center">
         <div className="mb-5">
           <Card 
-            header="Ongoing Task Lists"
+            header="Ongoing Lists"
             footer={
               <LargeButton name="Move to Done" type='success' onClick={() => moveTask()} disabled={items.length == 0 || buttonDisable}/>
             }
